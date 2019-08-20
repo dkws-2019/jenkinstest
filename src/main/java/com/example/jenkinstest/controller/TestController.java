@@ -8,6 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class TestController {
     @RequestMapping("/test")
     public String test(){
-        return "jenkins 测试成功 第二次测试成功 第三次提交 ";
+        return "jenkins 测试成功 第二次测试成功 第三次提交 第四提交 ";
     }
 }
